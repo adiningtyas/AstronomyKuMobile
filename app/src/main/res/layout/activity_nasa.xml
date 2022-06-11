@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NasaActivity"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:id="@+id/profile"
+                android:orientation="horizontal"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/rounded_edge"
+                android:backgroundTint="@color/blue"
+                >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/nasa"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/textDashboardMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Powered by Nasa"
+                    android:textSize="11sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/psemibold"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_title"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/psemibold"
+            android:textSize="22sp"
+            android:text="ABOUT NASA"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/image_nasa"
+            android:layout_gravity="center"
+            android:src="@drawable/nasa_photo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nasa_explanation1"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/pmedium"
+            android:text="@string/nasa_p1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nasa_explanation2"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/pmedium"
+            android:text="@string/nasa_p2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nasa_explanation3"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/pmedium"
+            android:text="@string/nasa_p3"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/nasa_loc"
+            android:text="@string/nasa_location"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/psemibold"
+            android:backgroundTint="@color/yblue"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+</ScrollView>

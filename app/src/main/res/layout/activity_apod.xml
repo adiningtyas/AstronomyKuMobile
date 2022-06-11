@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ApodActivity"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:id="@+id/profile"
+                android:orientation="horizontal"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/rounded_edge"
+                android:backgroundTint="@color/blue"
+                >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/icon_apod2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/textDashboardMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="13dp"
+                    android:text="APOD"
+                    android:textSize="22sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/psemibold"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="50dp"
+                android:gravity="right"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40dp"
+                    android:id="@+id/text_view_date"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/preguler"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_title"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/psemibold"
+            android:textSize="22sp"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="200dp"
+            android:id="@+id/image_view"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_copyright"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/preguler"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_view_explanation"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/pmedium"
+                />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/random_btn"
+            android:text="GET APOD"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/psemibold"
+            android:backgroundTint="@color/blue"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+</ScrollView>

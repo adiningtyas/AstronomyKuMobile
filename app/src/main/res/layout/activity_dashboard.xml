@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_menu"
+    tools:context=".DashboardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/profile"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/rounded_edge"
+            android:backgroundTint="@color/blue"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <ImageView
+                    android:layout_width="62dp"
+                    android:layout_height="62dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/icon_astronout" />
+
+                <TextView
+                    android:id="@+id/textDashboardMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/psemibold"
+                    android:text="AstronomyKu"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textDashboardMenu"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/preguler"
+                    android:text="Here is the Astronomy Picture"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_marginTop="10dp"
+            android:columnCount="1"
+            android:rowCount="1"
+            android:layout_gravity="center"
+            android:columnOrderPreserved="false"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/planets"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/yblue"
+                    >
+
+                    <ImageView
+                        android:src="@drawable/moon"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"/>
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textColor="#6f6f6f"
+                        android:textSize="18sp"
+                        android:text="Planets Informations"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/preguler"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/apod"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/yblue">
+
+                    <ImageView
+                        android:src="@drawable/galaxy"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"/>
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textColor="#6f6f6f"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:text="Astronomy Picture of the Day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/preguler"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/nasa"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/yblue">
+
+                    <ImageView
+                        android:src="@drawable/nasa"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"/>
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textColor="#6f6f6f"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:text="NASA Informations"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/preguler"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/about"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/yblue">
+
+                    <ImageView
+                        android:src="@drawable/about"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"/>
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textColor="#6f6f6f"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:text="About Us"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/preguler"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
