@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AstronomyKu</string>
+    <string name="app_tagline">Selamat datang di AstronomyKu, di sini Anda akan menemukan banyak fakta menarik tentang tata surya kita</string>
+    <string name="menu_planet">Fakta Menarik planet-planet</string>
+    <string name="menu_apod">Gambar Astronomi Hari Ini</string>
+    <string name="menu_nasa">Tentang NASA</string>
+    <string name="menu_about">Tentang AstronomyKu</string>
+    <string name="tagline_about">Berikut adalah Informasi tentang aplikasi ini</string>
+    <string name="btn_see_apod">Lihat APOD</string>
+    <string name="nasa_location">Lihat Lokasi NASA HQ</string>
+    <string name="nasa_p1">National Aeronautics and Space Administration adalah program luar angkasa sipil Amerika dan pemimpin global dalam eksplorasi ruang angkasa. Badan ini memiliki tenaga kerja yang beragam dengan jumlah hanya di bawah 18.000 pegawai negeri, dan bekerja dengan lebih banyak lagi kontraktor AS, akademisi, dan mitra internasional dan komersial untuk mengeksplorasi, menemukan, dan memperluas pengetahuan untuk kepentingan umat manusia. Dengan anggaran tahunan sebesar $23,2 miliar pada Tahun Anggaran 2021, yang kurang dari 0,5% dari keseluruhan anggaran federal AS, NASA mendukung lebih dari 312.000 pekerjaan di seluruh Amerika Serikat, menghasilkan lebih dari $64,3 miliar total output ekonomi (Tahun Anggaran 2019).</string>
+    <string name="nasa_p2">Di 20 pusat dan fasilitasnya di seluruh negeri – dan satu-satunya Laboratorium Nasional di luar angkasa – NASA mempelajari Bumi, termasuk iklimnya, Matahari kita, dan tata surya kita dan seterusnya. Kami melakukan penelitian, pengujian, dan pengembangan untuk memajukan aeronautika, termasuk penggerak listrik dan penerbangan supersonik. Kami mengembangkan dan mendanai teknologi luar angkasa yang akan memungkinkan eksplorasi masa depan dan memberi manfaat bagi kehidupan di Bumi.</string>
+    <string name="nasa_p3">NASA juga memimpin pendekatan eksplorasi Bulan ke Mars, yang mencakup bekerja dengan industri AS, mitra internasional, dan akademisi untuk mengembangkan teknologi baru, dan mengirim penelitian sains dan segera manusia untuk menjelajahi Bulan dalam misi Artemis yang akan membantu mempersiapkan eksplorasi manusia di planet tersebut. Planet Merah. Selain misi utama tersebut, agensi membagikan apa yang dipelajarinya sehingga informasinya dapat membuat hidup lebih baik bagi orang-orang di seluruh dunia. Misalnya, perusahaan menggunakan penemuan dan teknologi NASA untuk menciptakan produk baru untuk publik. Untuk memastikan kesuksesan masa depan bagi agensi dan bangsa, NASA juga mendukung upaya pendidikan di STEM dengan penekanan pada peningkatan keragaman tenaga kerja masa depan kita.</string>
+    <string name="about">AstronomyKu adalah aplikasi mobile yang memiliki fungsi untuk membantu pengguna yang ingin mengetahui fakta menarik seputar astronomi. Dalam aplikasi ini, pengguna akan diberikan berbagai informasi menarik tentang planet, kemudian APOD (Gambar Astronomi Hari Ini), dan informasi tentang NASA.</string>
+    <string name="menu_language">Bahasa</string>
+    <string name="menu_notif">Notifikasi</string>
+</resources>

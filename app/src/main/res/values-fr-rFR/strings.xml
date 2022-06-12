@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AstronomyKu</string>
+    <string name="app_tagline">Bienvenue sur AstronomyKu, vous trouverez ici de nombreux faits amusants sur notre système solaire</string>
+    <string name="menu_planet">Faits amusants sur les planètes</string>
+    <string name="menu_apod">Image d\'astronomie du jour</string>
+    <string name="menu_nasa">À propos de la NASA</string>
+    <string name="menu_about">À propos de l\'astronomieKu</string>
+    <string name="tagline_about">Voici les informations sur l\'application</string>
+    <string name="btn_see_apod">Voir APOD</string>
+    <string name="nasa_location">Voir l\'emplacement du siège de la NASA</string>
+    <string name="nasa_p1">La National Aeronautics and Space Administration est le programme spatial civil américain et le leader mondial de l\'exploration spatiale. L\'agence compte un effectif diversifié d\'un peu moins de 18 000 fonctionnaires et travaille avec de nombreux autres entrepreneurs américains, universités et partenaires internationaux et commerciaux pour explorer, découvrir et élargir les connaissances au profit de l\'humanité. Avec un budget annuel de 23,2 milliards de dollars pour l\'exercice 2021, soit moins de 0,5 % du budget fédéral américain global, la NASA soutient plus de 312 000 emplois aux États-Unis, générant plus de 64,3 milliards de dollars de production économique totale (exercice 2019) .</string>
+    <string name="nasa_p2">Dans ses 20 centres et installations à travers le pays - et le seul laboratoire national dans l\'espace - la NASA étudie la Terre, y compris son climat, notre Soleil, notre système solaire et au-delà. Nous effectuons des recherches, des essais et du développement pour faire progresser l\'aéronautique, y compris la propulsion électrique et le vol supersonique. Nous développons et finançons des technologies spatiales qui permettront l\'exploration future et profiteront à la vie sur Terre.</string>
+    <string name="nasa_p3">La NASA mène également une approche d\'exploration de la Lune à Mars, qui comprend la collaboration avec l\'industrie américaine, des partenaires internationaux et le milieu universitaire pour développer de nouvelles technologies, et envoyer des recherches scientifiques et bientôt des humains pour explorer la Lune sur des missions Artemis qui aideront à se préparer à l\'exploration humaine du Planète rouge. Au-delà de ces grandes missions, l\'agence partage ce qu\'elle apprend pour que ses informations améliorent la vie des populations du monde entier. Par exemple, les entreprises utilisent les découvertes et les technologies de la NASA pour créer de nouveaux produits destinés au public. Pour assurer le succès futur de l\'agence et de la nation, la NASA soutient également les efforts d\'éducation dans les STEM en mettant l\'accent sur l\'augmentation de la diversité de notre future main-d\'œuvre.</string>
+    <string name="about">AstronomyKu est une application mobile qui a pour fonction d\'aider les utilisateurs qui souhaitent connaître des faits intéressants sur l\'astronomie. Dans cette application, les utilisateurs recevront diverses informations intéressantes sur les planètes, puis APOD (Astronomy Picture of the Day) et des informations sur la NASA.</string>
+    <string name="menu_language">Langue</string>
+    <string name="menu_notif">Notification</string>
+</resources>

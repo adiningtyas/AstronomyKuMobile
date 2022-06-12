@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".NasaActivity"
-    android:background="@color/white"
+    android:background="@color/yblue"
     android:orientation="vertical"
     >
 
@@ -21,37 +21,43 @@
             android:orientation="horizontal"
             >
             <LinearLayout
-                android:id="@+id/profile"
-                android:orientation="horizontal"
-                android:layout_width="150dp"
-                android:layout_height="60dp"
-                android:layout_marginTop="32dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:background="@drawable/rounded_edge"
-                android:backgroundTint="@color/blue"
                 >
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/profile"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_edge"
+                    android:backgroundTint="@color/blue"
+                    android:padding="10dp"
+                    >
 
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/nasa"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="15dp"
-                    />
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/nasa"
+                        />
 
-                <TextView
-                    android:id="@+id/textDashboardMenu"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="13dp"
-                    android:text="Powered by Nasa"
-                    android:textSize="11sp"
-                    android:textColor="@color/white"
-                    android:fontFamily="@font/psemibold"
-                    />
+                    <TextView
+                        android:id="@+id/textDashboardMenu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Powered by Nasa"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/psemibold"
+                        />
+                </LinearLayout>
+
             </LinearLayout>
+
+
+
 
         </LinearLayout>
 
@@ -66,7 +72,7 @@
             android:textColor="@color/black"
             android:fontFamily="@font/psemibold"
             android:textSize="22sp"
-            android:text="ABOUT NASA"
+            android:text="@string/menu_nasa"
             />
 
         <ImageView
@@ -128,8 +134,9 @@
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
             android:fontFamily="@font/psemibold"
-            android:backgroundTint="@color/yblue"
+            android:backgroundTint="@color/blue"
             android:textColor="@color/black"
+            android:layout_marginBottom="20dp"
             />
     </LinearLayout>
 

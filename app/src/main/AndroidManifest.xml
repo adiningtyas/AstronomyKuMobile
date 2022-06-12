@@ -17,8 +17,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AstronomyKu3"
-        android:usesCleartextTraffic="true"
-        >
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false" />
         <activity
             android:name=".AboutActivity"
             android:exported="false" />
@@ -59,6 +61,7 @@
         <activity
             android:name=".PlanetActivity"
             android:exported="false" />
+        <receiver android:name=".AlarmReceiver"/>
     </application>
 
 </manifest>

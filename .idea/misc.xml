@@ -3,14 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/tyas/AndroidStudioProjects/AstronomyKu3/app/src/main/res/layout/activity_about.xml" value="0.22" />
         <entry key="..\:/Users/tyas/AndroidStudioProjects/AstronomyKu3/app/src/main/res/layout/activity_apod.xml" value="0.22" />
-        <entry key="..\:/Users/tyas/AndroidStudioProjects/AstronomyKu3/app/src/main/res/layout/activity_dashboard.xml" value="0.1" />
+        <entry key="..\:/Users/tyas/AndroidStudioProjects/AstronomyKu3/app/src/main/res/layout/activity_dashboard.xml" value="0.29411764705882354" />
         <entry key="..\:/Users/tyas/AndroidStudioProjects/AstronomyKu3/app/src/main/res/layout/activity_main.xml" value="0.165625" />
         <entry key="..\:/Users/tyas/AndroidStudioProjects/AstronomyKu3/app/src/main/res/layout/activity_maps.xml" value="0.1" />
-        <entry key="..\:/Users/tyas/AndroidStudioProjects/AstronomyKu3/app/src/main/res/layout/activity_nasa.xml" value="0.1" />
+        <entry key="..\:/Users/tyas/AndroidStudioProjects/AstronomyKu3/app/src/main/res/layout/activity_nasa.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/tyas/AndroidStudioProjects/AstronomyKu3/app/src/main/res/layout/activity_notification.xml" value="0.1" />
         <entry key="..\:/Users/tyas/AndroidStudioProjects/AstronomyKu3/app/src/main/res/layout/activity_planet.xml" value="0.17300724637681159" />
         <entry key="..\:/Users/tyas/AndroidStudioProjects/AstronomyKu3/app/src/main/res/layout/activity_splashscreen.xml" value="0.1" />
         <entry key="..\:/Users/tyas/AndroidStudioProjects/AstronomyKu3/app/src/main/res/layout/card_item.xml" value="0.22" />
+        <entry key="..\:/Users/tyas/AndroidStudioProjects/AstronomyKu3/app/src/main/res/menu/main_manu.xml" value="0.1" />
+        <entry key="..\:/Users/tyas/AndroidStudioProjects/AstronomyKu3/app/src/main/res/menu/main_menu.xml" value="0.22" />
+        <entry key="..\:/Users/tyas/AndroidStudioProjects/AstronomyKu3/app/src/main/res/menu/menu_maps.xml" value="0.1" />
         <entry key="..\:/Users/tyas/AndroidStudioProjects/AstronomyKu3/app/src/main/res/menu/menu_options.xml" value="0.22" />
       </map>
     </option>

@@ -37,24 +37,26 @@
                     android:layout_width="62dp"
                     android:layout_height="62dp"
                     android:layout_alignParentRight="true"
-                    android:src="@drawable/icon_astronout" />
+                    android:src="@drawable/icon_astronout"
+                    android:layout_marginTop="10dp"
+                    />
 
                 <TextView
                     android:id="@+id/textDashboardMenu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/psemibold"
-                    android:text="AstronomyKu"
+                    android:text="@string/app_name"
                     android:textColor="@color/white"
                     android:textSize="22sp" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/textDashboardMenu"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:fontFamily="@font/preguler"
-                    android:text="Here is the Astronomy Picture"
+                    android:text="@string/app_tagline"
                     android:textColor="@color/white"
                     android:textSize="12sp" />
 
@@ -97,9 +99,10 @@
 
                     <TextView
                         android:layout_marginTop="12dp"
-                        android:textColor="#6f6f6f"
+                        android:textColor="@color/black"
                         android:textSize="18sp"
-                        android:text="Planets Informations"
+                        android:text="@string/menu_planet"
+                        android:textAlignment="center"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/preguler"
@@ -133,13 +136,14 @@
 
                     <TextView
                         android:layout_marginTop="12dp"
-                        android:textColor="#6f6f6f"
+                        android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textAlignment="center"
-                        android:text="Astronomy Picture of the Day"
+                        android:text="@string/menu_apod"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/preguler"
+
                         />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -170,10 +174,10 @@
 
                     <TextView
                         android:layout_marginTop="12dp"
-                        android:textColor="#6f6f6f"
+                        android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textAlignment="center"
-                        android:text="NASA Informations"
+                        android:text="@string/menu_nasa"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/preguler"
@@ -207,10 +211,10 @@
 
                     <TextView
                         android:layout_marginTop="12dp"
-                        android:textColor="#6f6f6f"
+                        android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textAlignment="center"
-                        android:text="About Us"
+                        android:text="@string/menu_about"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/preguler"
